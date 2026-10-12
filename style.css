@@ -67,3 +67,20 @@ header {
     color: white;
     margin-top: 10px;
 }
+
+.information {
+    text-align: center;
+}
+
+.information h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.rectangle {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3B82F6;
+    border-radius: 10%;
+}
