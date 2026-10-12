@@ -32,9 +32,10 @@ header {
 
 .hero {
     margin:48px;
-    padding-bottom: 150px;
+    padding-bottom: 75px;
     gap: 30px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .hero h1 {
@@ -48,10 +49,14 @@ header {
     color: #E5E7EB;
     font-weight: 300;
 }
+
+.hero .left{
+    max-width: 500px;
+}
 .hero .right {
     background: #6D747D;
     height: 200px;
-    width: 900px;
+    width: 400px;
     text-align: center;
     align-content: center;
     color: #F9FAF8;
